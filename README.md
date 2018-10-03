@@ -1,4 +1,4 @@
-# Plagiarism Detection
+# Plagiarism Detection - N Tuple Algorithm
 
 ## Instruction
 - To run this file, simply do a command "python solution.py". Then, type in the input according to the format (syns, file1, file2, _optional: tuple size_) Ex. "python solution.py syns.txt file1.txt file2.txt 3"
@@ -29,12 +29,12 @@
 - Special character is not supported. Ex. `go for a run, man` and `go for a run man` would fail because `run,` is compared to `run`.
 
 ## Test
-- 1) Default case: `go for a run` vs. `go for a jog`
-- 2) Two synonyms in the line
-- 3) All synonyms in diff order: `tic tac toe` vs. `toe tic tac`
-- 4) No synonym
-- 5) Long line
-- 6) Re use synonyms: `run` vs `ran` (`run` is listed above already with `jog` and `sprint`)
+ 1) Default case: `go for a run` vs. `go for a jog`
+ 2) Two synonyms in the line
+ 3) All synonyms in diff order: `tic tac toe` vs. `toe tic tac`
+ 4) No synonym
+ 5) Long line
+ 6) Re use synonyms: `run` vs `ran` (`run` is listed above already with `jog` and `sprint`)
 
 ## Down the Road
 - Could make the SynsDic class more abstract. Then, implement different sub-classes that support different languages.
